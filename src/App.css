@@ -1,0 +1,94 @@
+.body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.dog_header {
+    display: fixed;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.dog_image_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 70px 20px 70px;
+}
+
+.dog_message {
+    text-align: center;
+    width: 50%;
+    flex: 1;    
+}
+
+.dog_image {
+    float: right;
+    width: 50%;
+    width: 500px;
+    height: 400px;
+    object-fit: contain;
+    flex: 1;
+}
+
+.update_button_container {
+    padding: 30px 70px;
+    border-bottom: 1px solid black;
+}
+
+.update_button {
+    border: none;
+    color: #ffffff;
+    background-color: dodgerblue;
+    padding: 10px 40px;
+    border-radius: 5px;
+    display: block;
+    margin-left: auto;
+    clear: both;
+    cursor: pointer;
+}
+
+.breeds_list_container {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.breeds_list_label {
+    font-size: 16px;
+}
+
+.breeds_list {
+    padding: 10px;
+    width: 600px;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.display_button {
+    border: none;
+    color: #ffffff;
+    background-color: dodgerblue;
+    padding: 10px 80px;
+    border-radius: 5px;
+    float: right;
+    cursor: pointer;
+    margin-left: 50px;
+}
+
+.breeds_image_list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.breed_image {
+    margin: 30px;
+    width: 400px;
+    height: 300px;
+    object-fit: contain;
+}
